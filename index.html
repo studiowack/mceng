@@ -1,10 +1,12 @@
 <html>
+  <!-- TODO: Darken background image and get it to fit the screen, do the about page-->
 <head>
     <title>McCommons Engineering</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" type="image/x-icons" href="favicon.ico">
     <script src="script.js"></script>
     <script src="scripts/loadNav.js"></script>
+    <script src="scripts/bgChange.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="McCommons Engineering">
     <meta name="keywords" content="McCommons Engineering, Daytona Beach, Jim McCommons, inventor, patents, soldering, racing, nascar, NASCAR">
@@ -25,13 +27,13 @@
     <meta name="google" content="max-video-preview:-1">
     <meta name="google" content="notranslate">
 </head>
-<body>
+<body onload="changeBackground();">
     <header>
         <div id="navbar-placeholder"></div>
     </header>
     <main>
         <img id="mclogo" src="imgs/mclogo.png" alt="McCommons Engineering Logo">
-        <section>
+        <section style="text-align:center;">
             <h2>Welcome to McCommons Engineering</h2>
             <p>McCommons Engineering is an engineering firm based in Daytona Beach, FL. Ran by <a href="https://patents.google.com/?inventor=James+A.+Mccommons">Jim McCommons</a>, we have a number of patents for ease of use and necessary issues.</p>
         </section>
