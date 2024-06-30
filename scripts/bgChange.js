@@ -24,8 +24,8 @@ function changeBackground() {
     // Set the background image of the body element
     
     body.style.backgroundImage = `url(${backgrounds[randomIndex]})`;
-    // Darken the background image
-    body.style.backgroundImage.filter = "brightness(0.5)";
+    // DO: Darken the background image
+    
 }
 
 // Call the changeBackground function when the page loads
