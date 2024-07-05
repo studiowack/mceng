@@ -10,6 +10,7 @@ body {
     align-items: center; /* Optional, if you also want to vertically center it within a taller container */
 }
 
+
 nav {
     position: sticky;
     top: 0;
