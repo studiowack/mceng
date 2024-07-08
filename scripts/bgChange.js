@@ -1,15 +1,15 @@
 // Array of background images
 const backgrounds = [
-    "../imgs/bgs/solderbp1.png",
-    "../imgs/bgs/solderbp2.png",
-    "../imgs/bgs/solderbp3.png",
-    "../imgs/bgs/solderbp4.png",
-    "../imgs/bgs/solderbp5.png",
-    "../imgs/bgs/solderbp6.png",
-    "../imgs/bgs/solderbp7.png",
-    "../imgs/bgs/solderbp8.png",
-    "../imgs/bgs/solderbp9.png",
-    "../imgs/bgs/solderbp10.png",
+    "../imgs/bgs/solderbpe1.png",
+    "../imgs/bgs/solderbpe2.png",
+    "../imgs/bgs/solderbpe3.png",
+    "../imgs/bgs/solderbpe4.png",
+    "../imgs/bgs/solderbpe5.png",
+    "../imgs/bgs/solderbpe6.png",
+    "../imgs/bgs/solderbpe7.png",
+    "../imgs/bgs/solderbpe8.png",
+    "../imgs/bgs/solderbpe9.png",
+    "../imgs/bgs/solderbpe10.png",
     // Add more background images here
 ];
 
