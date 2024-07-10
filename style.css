@@ -4,8 +4,8 @@ body {
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-blend-mode: darken;
-    /* background-color: rgba(0, 0, 0, .30); */
+    /* background-blend-mode: darken; */
+    background-color: rgba(245, 245, 245);
 }
 
 .center-img {
