@@ -29,4 +29,4 @@ function changeBackground() {
 }
 
 // Call the changeBackground function when the page loads
-window.addEventListener("load", changeBackground);
+// window.addEventListener("load", changeBackground);
