@@ -4,9 +4,9 @@ body {
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('./imgs/bgs/sample3.png')
+    /* background-image: url('./imgs/bgs/sample3.png') */
     /* background-blend-mode: darken; */
-    /* background-color: rgba(245, 245, 245); */
+    background-color: rgba(245, 245, 245);
 }
 
 
