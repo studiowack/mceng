@@ -11,6 +11,6 @@ def rename_images(directory, name):
             count += 1
 
 # Example usage
-directory = "imgs/restorations/"
-name = "rangerrespic"
+directory = "imgs/shelbycobra/"
+name = "shelbycobrapic"
 rename_images(directory, name)
