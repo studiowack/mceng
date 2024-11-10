@@ -9,6 +9,12 @@ body {
     margin: auto;
     overflow: hidden;
 }
+h1 {
+    color: #333;
+}
+p {
+    color: #333;
+}
 header {
     background: #333;
     color: #d61515;
