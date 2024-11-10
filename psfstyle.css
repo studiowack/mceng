@@ -9,6 +9,9 @@ body {
     margin: auto;
     overflow: hidden;
 }
+#banner {
+    color: #d61515
+}
 h1 {
     color: #333;
 }
