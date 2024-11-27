@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             // Get the current page URL
             const currentPage = window.location.pathname.split('/').pop();
+            console.log('Current page:', currentPage);
 
             // Get all the nav links
             const navLinks = document.querySelectorAll('nav ul li');
