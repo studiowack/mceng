@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
             console.log('Current page:', currentPage);
 
             // Get all the nav links
-            const navLinks = document.querySelectorAll('nav ul li');
+            const navLinks = document.querySelectorAll('nav ul li a');
 
             // Loop through the links and add the .current class to the matching link
             navLinks.forEach(link => {
