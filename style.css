@@ -32,7 +32,7 @@ body {
 }
 
 #contactus {
-    display: inline-flex;
+    display: inline-block;
     outline: none;
     cursor: pointer;
     font-size: 14px;
