@@ -50,12 +50,12 @@ body {
     padding: 16px 14px 18px;
     color: #616467;
     box-shadow: inset 0 0 0 2px #616467;
-    background-color: transparent;
+    background-color: #616467;
     height: 48px;
 }
 #contactus:hover {
     color: #fff;
-    background-color: #616467;
+    background-color: #F8F8FF;
 }
 
 
