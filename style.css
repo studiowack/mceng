@@ -189,4 +189,7 @@ nav ul li a:hover {
   }
 }
 
-
+.current{
+  color: rgb(138, 9, 9);
+  border-top: 3px solid rgb(138, 9, 9);
+}
