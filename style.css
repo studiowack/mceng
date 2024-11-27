@@ -192,6 +192,7 @@ nav ul li a:hover {
 }
 
 .current{
-  background-color: rgb(138, 9, 9);
-  border-top: 3px solid rgb(138, 9, 9);
+  text-decoration-thickness: 3px;
+  text-decoration-color: rgb(138, 9, 9);
+  text-decoration-line: underline;
 }
