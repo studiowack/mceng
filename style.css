@@ -56,8 +56,9 @@ body {
     
 }
 #contactus:hover {
-    color: #fff;
-    background-color: #F8F8FF;
+    color: ghostwhite;
+    background-color: rgb(138, 9, 9);
+    display:inline-block;
 }
 
 
