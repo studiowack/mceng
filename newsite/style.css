@@ -35,3 +35,15 @@
     color: ghostwhite;
     border-color: #5c551e;
 }
+
+#bannertext1 {
+    color: #e8c800;
+    font-family: sans-serif, Arial;
+    transform: scaleY(1.5);
+}
+
+#bannertext2 {
+    color: ghostwhite;
+    font-family: serif, Arial;
+    font-size: 1.5rem;
+}
