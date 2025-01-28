@@ -10,6 +10,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    position: relative;
 }
 
 /* Keypoints container styling */
@@ -40,10 +41,12 @@
     color: #e8c800;
     font-family: sans-serif, Arial;
     transform: scaleY(1.5);
+    text-align: center;
 }
 
 #bannertext2 {
     color: ghostwhite;
     font-family: serif, Arial;
     font-size: 1.5rem;
+    text-align: center;
 }
