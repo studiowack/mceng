@@ -51,6 +51,20 @@
     padding: 10px 0;
 }
 
+#keypoint-heading {
+    color: ghostwhite;
+    font-family: sans-serif, Arial;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#keypoint-text {
+    color: #818a9b;
+    font-family: sans-serif, Arial;
+    text-align: center;
+}
+
 /* Keypoints div styling */
 .keypoints {
     background-color: #011226;
