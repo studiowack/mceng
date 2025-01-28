@@ -2,7 +2,7 @@
 #banner {
     position: relative;
     width: 100%;
-    height: 300px; /* Adjust height as needed */
+    height: 500px; /* Adjust height as needed */
     overflow: hidden;
 }
 
@@ -20,7 +20,7 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.0); /* Transparent background */
     padding: 10px 0;
 }
 
@@ -42,6 +42,7 @@
     font-family: sans-serif, Arial;
     transform: scaleY(1.5);
     text-align: center;
+    position: absolute;
 }
 
 #bannertext2 {
@@ -49,4 +50,5 @@
     font-family: serif, Arial;
     font-size: 1.5rem;
     text-align: center;
+    position: absolute;
 }
