@@ -1,8 +1,7 @@
-/* Banner styling */
 #banner {
     position: relative;
     width: 100%;
-    height: 500px; /* Adjust height as needed */
+    height: 300px; /* Adjust height as needed */
     overflow: hidden;
 }
 
@@ -10,7 +9,28 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Text styling for banner */
+#bannertext1, #bannertext2 {
+    color: #e8c800;
+    font-family: sans-serif, Arial;
+    transform: scaleY(1.5); /* Stretch the text vertically by 1.5 */
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+#bannertext1 {
+    top: 20%; /* Adjust position as needed */
+}
+
+#bannertext2 {
+    top: 40%; /* Adjust position as needed */
 }
 
 /* Keypoints container styling */
@@ -35,22 +55,4 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: ghostwhite;
     border-color: #5c551e;
-}
-
-#bannertext1 {
-    color: #e8c800;
-    font-family: sans-serif, Arial;
-    transform: scaleY(1.5);
-    text-align: center;
-    position: absolute;
-    z-index: 10;
-}
-
-#bannertext2 {
-    color: ghostwhite;
-    font-family: serif, Arial;
-    font-size: 1.5rem;
-    text-align: center;
-    position: absolute;
-    z-index: 10;
 }
