@@ -36,7 +36,7 @@
     position: absolute;
     width: 100%;
     z-index: 10;
-    top: 40%; /* Adjust position as needed */
+    top: 30%; /* Adjust position as needed */
     font-size: 2em;
     font-weight: bold;
 }
@@ -49,7 +49,7 @@
     display: flex;
     justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.0); /* Transparent background */
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 .keypoint-icons img{
@@ -90,14 +90,71 @@
 
 #about-container {
     background-color: #cecece;
-
+    padding: 20px;
 }
 
-#abt-bullet-column {
-    list-style-image: './imgs/graphics/custombulletpoint.svg';
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#about-text {
+    font-family: Arial, Helvetica, sans-serif, monospace;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000000;
+    flex: 1;
+    display: flex;
+}
+
+
+.bullet-points-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 1;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif, monospace;
+    font-weight: bold;
+}
+
+.abt-bullet-column {
+    list-style-image: url('./imgs/graphics/custombulletpoint.svg');
+    margin-right: 20px;
 }
 
 #about-heading {
     color: #a42721;
+    font-size: 1.5em;
     
+}
+
+#about-img-container {
+    position: relative; /* Create a positioning context */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 400px;
+    height: 350px;
+    flex-shrink: 0;
+}
+
+#about-img-container img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#fiftyyrsexp {
+    position: absolute; /* Position it absolutely within the container */
+    top: 20px; /* Align to the top */
+    right: 20px; /* Align to the right */
+    width: 90px;
+    height: 90px;
+    z-index: 1; /* Ensure it appears on top of the image */
 }
