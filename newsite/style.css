@@ -12,6 +12,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    
 }
 
 /* Banner text styling */
@@ -72,8 +73,13 @@
     margin: 10px;
     flex: 1;
     text-align: center;
+    border: solid #a42721;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: #000000;
-    border-color: #a42721;
+}
+
+#about-container {
+    background-color: #cecece;
+
 }
