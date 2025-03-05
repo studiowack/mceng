@@ -54,6 +54,8 @@
 
 #keypoint-icons {
     margin: auto;
+    max-width: 75px;
+    max-height: 75px;
 }
 
 #keypoint-heading {
