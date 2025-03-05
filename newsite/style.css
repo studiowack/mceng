@@ -52,6 +52,10 @@
     padding: 10px 0;
 }
 
+#keypoint-icons {
+    margin: auto;
+}
+
 #keypoint-heading {
     color: 000000;
     font-family: sans-serif, Arial;
@@ -90,5 +94,5 @@
 
 #about-heading {
     color: #a42721;
-    
+
 }
