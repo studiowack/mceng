@@ -52,14 +52,15 @@
     padding: 10px 0;
 }
 
-.keypoint-icons {
+.keypoint-icons img{
     margin: auto;
     max-width: 75px;
     max-height: 75px;
+    display: block;
 }
 
 #keypoint-heading {
-    color: 000000;
+    color: #000000;
     font-family: sans-serif, Arial;
     text-align: center;
     font-weight: bold;
@@ -83,6 +84,8 @@
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: #000000;
+    width: 400px;
+    height: 300px;
 }
 
 #about-container {
