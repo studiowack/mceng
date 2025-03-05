@@ -83,3 +83,7 @@
     background-color: #cecece;
 
 }
+
+#abt-bullet-column {
+    list-style-image: './imgs/graphics/custombulletpoint.svg';
+}
