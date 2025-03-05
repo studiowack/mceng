@@ -87,3 +87,8 @@
 #abt-bullet-column {
     list-style-image: './imgs/graphics/custombulletpoint.svg';
 }
+
+#about-heading {
+    color: #a42721;
+    
+}
