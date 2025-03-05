@@ -52,7 +52,9 @@
     padding: 10px 0;
 }
 
-
+#keypoint-icons {
+    margin: auto;
+}
 
 #keypoint-heading {
     color: 000000;
