@@ -12,7 +12,18 @@
     position: absolute;
     top: 0;
     left: 0;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(164, 39, 33, 0.7)), url('./imgs/bannerpic.jpeg');
+    background-size: cover;
     
+}
+
+#banner-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Banner text styling */
